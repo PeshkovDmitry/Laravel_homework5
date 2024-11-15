@@ -11,5 +11,5 @@ Route::get('/get-employee-data', [EmployeeController::class, 'index']);
 
 Route::post('/store-form', [EmployeeController::class, 'store']);
 
-Route::put('/user/{id}', [EmployeeController::class, 'update']);
+Route::post('/user/{id}', [EmployeeController::class, 'update']);
 

@@ -37,7 +37,7 @@ class EmployeeController extends Controller
     }
 
     public function update(Request $request, $id) {
-        echo $id;
+        echo  "id = " . $id . ", но я так и не понял, что с ним по заданию необходимо делать";
     }
 
     private function getPath(request $request) {

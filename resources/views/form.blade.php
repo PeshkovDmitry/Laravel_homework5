@@ -26,5 +26,10 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        <form method="post" action="{{ url('/user/1') }}">
+            @csrf
+            <button type="submit" class="btn btn-primary">Submit for update</button>
+        </form>
+
     </body>
 </html>
